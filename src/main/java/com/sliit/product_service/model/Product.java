@@ -12,7 +12,7 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private Double price; // [cite: 16]
+    private Double price;
 
     // Constructors
     public Product() {
